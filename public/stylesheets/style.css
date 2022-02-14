@@ -75,19 +75,12 @@ h1 a {
     line-height: 150%;
   }
   
-  .post .title span {
+  .post .title  {
     font-style: italic;
     font-size: 90%;
     color: #7d7d7d;
   }
-  
-  .edit-link {
-    display: block;
-    margin: -1.5% 0 2% 0;
-  }
-  
 
-  
   .comment-form {
     margin-bottom: 5%;
   }
@@ -97,7 +90,6 @@ h1 a {
     margin-bottom: 1%;
   }
   
-  
   .comment .meta {
     font-size: 90%;
     margin-bottom: .5%;
@@ -105,9 +97,21 @@ h1 a {
   }
   
   .new-post-form input {
-    width: 300px;
+    width: 100%;
   }
   
   .edit-post-form {
     margin-bottom: 5%;
+  }
+  .container{
+    width: 30%;
+  }
+  textarea {
+    width: 100%;
+  }
+  input{
+    width: 100%;
+  }
+  .commentext{
+    width:50%;
   }
